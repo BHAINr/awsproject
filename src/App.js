@@ -1,22 +1,19 @@
 import logo from './logo.svg';
-import './App.css';
+//import './App.css';
+import Signup from './Component/Signup';
+import Login from './Component/Login';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h2>SignUp If you not have account</h2>
+        <Signup/>
+        <h2>Signin If you have account</h2>
+        <Login />
+
+        
+        <h3>Sir check traffic in INSPECT</h3>
       </header>
     </div>
   );
